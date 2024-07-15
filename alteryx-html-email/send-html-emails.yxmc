@@ -1,0 +1,2227 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="2404" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>test</Name>
+          <Abbrev>t</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>t Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2304" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Info" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="986" y="336" width="901" height="211" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>prepare email</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="68">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerText.PortfolioComposerText">
+            <Position x="1707" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <HeaderMode value="False" />
+              <RawMode value="True" />
+              <ValidatePCXML value="False" />
+              <Message>&lt;htmlpassthrough&gt;
+&lt;![CDATA[
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" /&gt;
+&lt;meta name="viewport" content="width=device-width" /&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+
+&lt;!--PAGE TITLE--&gt;
+&lt;title&gt;[Email_Title:A]&lt;/title&gt;
+
+&lt;!-- Google Fonts Link --&gt;
+&lt;link href="https://fonts.googleapis.com/css?family=Arial:300,400,600,700" rel="stylesheet" /&gt;
+&lt;style type="text/css"&gt;
+
+/*------ Client-Specific Style ------ */
+@-ms-viewport{width:device-width;}
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;}
+img{-ms-interpolation-mode:bicubic; border: 0;}
+body {font-family: 'Inter', Arial, Helvetica, sans-serif !important; font-weight:300; font-size:14px; line-height:24px;}
+p, a, li, td, blockquote{mso-line-height-rule:exactly; line-height: 24px}
+p, a, li, td, body, table, blockquote{-ms-text-size-adjust:100%; -webkit-text-size-adjust:100%;}
+#outlook a{padding:0;}
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;}
+.ExternalClass,.ExternalClass div,.ExternalClass font,.ExternalClass p,.ExternalClass span,.ExternalClass td,img{line-height:100%;}
+
+/*------ Reset Style ------ */
+*{-webkit-text-size-adjust:none;-webkit-text-resize:100%;text-resize:100%;}
+table{border-spacing: 0 !important;}
+h1, h2, h3, h4, h5, h6, p{display:block; Margin:0; padding:0; color: #0C090A;}
+img, a img{border:0; height:auto; outline:none; text-decoration:none;}
+#bodyTable, #bodyCell{ margin:0; padding:0; width:100%;}
+body {height:100%; margin:0; padding:0; width:100%; color: #0C090A}
+.appleLinks a {color: #c2c2c2 !important; text-decoration: none;}
+span.preheader { display: none !important; }
+
+&lt;/style&gt;
+
+&lt;style type="text/css"&gt;
+/*------ Media Width 480 ------ */
+@media screen and (max-width:480px) {.hideOnMobile {display:none !important; width:0; overflow:hidden;}}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;!-- PREHEADER --&gt;
+&lt;div style="font-size:0px;line-height:1px;mso-line-height-rule:exactly;display:none;max-width:0px;max-height:0px;opacity:0;overflow:hidden;mso-hide:all;"&gt;
+[Email_Preview_Text:A]
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;
+&amp;#10;&amp;#10;
+&lt;/div&gt;
+
+&lt;!--BODY BACKGROUND--&gt;
+&lt;body style="background-color:#F9F9F9;"&gt;
+&lt;center&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" id="bodyTable" style="table-layout: fixed; background-color: #F9F9F9;" width="100%"&gt;&lt;tbody&gt;&lt;tr&gt;
+&lt;td align="center" style="padding-right: 10px; padding-left: 10px;" valign="top"&gt;
+
+&lt;!--MAIN CARD--&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%"&gt;
+&lt;tbody&gt;&lt;tr&gt;&lt;td align="center" valign="top"&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" style="background-color: #ffffff; box-shadow: #d8d8d8 0px 0px 10px;" width="100%"&gt;
+&lt;tbody&gt;&lt;tr style="height: 5px;"&gt;
+
+&lt;!--CARD TOP BORDER--&gt;
+&lt;td style="background-color: [Coloured_Bar_Hex_Code:A]; font-size: 1px; line-height: 3px; height: 3px;"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr style="height: 46px;"&gt;
+&lt;td align="center" style="padding-bottom: 5px; padding-left: 20px; padding-right: 20px; height: 46px;" valign="top"&gt;
+
+&lt;!--EMOJI IN TITLE--&gt;
+&lt;h2 style="font-size: 32px; line-height: 40px; padding: 0px; margin: 0px;"&gt;&lt;br&gt;
+[Emoji_Decimal_Code:A]
+&lt;/h2&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: auto;"&gt;
+&lt;td align="center" style="padding-bottom: 10px; padding-left: 25px; padding-right: 25px; height: auto;" valign="top"&gt;
+
+&lt;!--MAIN TITLE TEXT--&gt;
+&lt;h4 style="color: #999999; font-size: 18px; font-weight: 400; line-height: 26px; text-transform: none; text-align: center; padding: 0; margin: 0;"&gt;
+[Email_Title:A]
+&lt;br&gt;
+&lt;span style="color: #0C090A"&gt;
+[Email_Subtitle:A]
+&lt;/span&gt;
+&lt;/h4&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style="height: auto;"&gt;
+&lt;td align="center" ui-sortable" style="padding-left: 30px; padding-right: 30px; height: auto;" valign="top"&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center" style="padding: 25px 0" valign="top"&gt;
+
+&lt;!--DIVIDER--&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td height="1" style="background-color: #e5e5e5; font-size: 1px; line-height: 1px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center" style="padding: 10px 0 0 0;" valign="top"&gt;
+
+&lt;!--BODY TEXT--&gt;
+[Email_Body:A]
+
+&lt;!--SIGN-OFF TEXT--&gt;
+&lt;p style="font-size: 14px; text-align: center; margin: 20px 0 35px; line-height: 40px"&gt;
+[Sender_Signoff:A]
+&lt;/p&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;table border="0" cellpadding="0" cellspacing="0" style="max-width: 600px;" width="100%"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="center" valign="top"&gt;
+&lt;!-- Content Table Open// --&gt;
+&lt;table border="0" cellpadding="0" cellspacing="0" width="100%"&gt;
+&lt;tbody&gt;
+&lt;tr style="height: 36px;"&gt;
+&lt;td align="center" =style="padding: 10px 10px 5px; height: 36px;" valign="top"&gt;
+
+&lt;!--FOOTER--&gt;
+&lt;br&gt;
+&lt;p style="color: #b4b4b4; font-size: 12px; text-align: center; padding: 10px 0; margin: 0;"&gt;
+[Footer_Text:A]
+&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td height="20" style="font-size: 1px; line-height: 1px;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/center&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+]]&gt;
+&lt;/htmlpassthrough&gt;</Message>
+              <RichTextMode value="False" />
+              <RichTextString><![CDATA[{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Arial;}}
+\viewkind4\uc1\pard\fs24\par
+}
+]]></RichTextString>
+              <Styles>
+                <Style Name="TextStyle" />
+              </Styles>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>HTML Email</Name>
+              <DefaultAnnotationText>Raw PCXML
+No Text Styling</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="From_Email" size="100" source="Summarize: GroupBy - From_Email" type="V_WString" />
+                <Field name="To_Email" size="15" source="Summarize: GroupBy - To_Email" type="String" />
+                <Field name="Email_Title" size="100" source="Summarize: GroupBy - Email_Title" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="Summarize: GroupBy - Email_Subject" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="Summarize: GroupBy - Emoji_Decimal_Code" type="V_WString" />
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="Summarize: GroupBy - Coloured_Bar_Hex_Code" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="Summarize: GroupBy - Email_Preview_Text" type="String" />
+                <Field name="Email_Subtitle" size="100" source="Summarize: GroupBy - Email_Subtitle" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="Summarize: GroupBy - Sender_Signoff" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="Summarize: GroupBy - Footer_Text" type="V_WString" />
+                <Field name="Email_Body" size="1073741823" source="Summarize: Concat - Email_Body" type="V_WString" />
+                <Field name="Text" size="2147483647" source="Report:Text:" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="From_Email" order="Asc" />
+                <Field field="To_Email" order="Asc" />
+                <Field field="Email_Title" order="Asc" />
+                <Field field="Email_Subject" order="Asc" />
+                <Field field="Emoji_Decimal_Code" order="Asc" />
+                <Field field="Coloured_Bar_Hex_Code" order="Asc" />
+                <Field field="Email_Preview_Text" order="Asc" />
+                <Field field="Email_Subtitle" order="Asc" />
+                <Field field="Sender_Signoff" order="Asc" />
+                <Field field="Footer_Text" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerTextPlugin" />
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="PortfolioPluginsGui.ComposerLayout.PortfolioComposerLayout">
+            <Position x="1803" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupingMode>PerRecord</GroupingMode>
+              <PreserveSourceFields value="False" />
+              <Orientation>H</Orientation>
+              <Separator>Continuous</Separator>
+              <Width>100%</Width>
+              <Height />
+              <BorderStyle Enabled="false" Color="#000000" Width="2" />
+              <SeparatorStyle Enabled="false" Color="#000000" Width="1" />
+              <Padding>0</Padding>
+              <LayoutFields orderChanged="False">
+                <Field name="Text" selected="True" Alignment="Center" />
+              </LayoutFields>
+              <MergeIntoTable value="False" />
+              <SectionNameForGroup />
+              <SectionNameForAllRecords />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name>Layout</Name>
+              <DefaultAnnotationText>Layout</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="From_Email" size="100" source="Summarize: GroupBy - From_Email" type="V_WString" />
+                <Field name="To_Email" size="15" source="Summarize: GroupBy - To_Email" type="String" />
+                <Field name="Email_Title" size="100" source="Summarize: GroupBy - Email_Title" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="Summarize: GroupBy - Email_Subject" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="Summarize: GroupBy - Emoji_Decimal_Code" type="V_WString" />
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="Summarize: GroupBy - Coloured_Bar_Hex_Code" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="Summarize: GroupBy - Email_Preview_Text" type="String" />
+                <Field name="Email_Subtitle" size="100" source="Summarize: GroupBy - Email_Subtitle" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="Summarize: GroupBy - Sender_Signoff" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="Summarize: GroupBy - Footer_Text" type="V_WString" />
+                <Field name="Email_Body" size="1073741823" source="Summarize: Concat - Email_Body" type="V_WString" />
+                <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerLayoutPlugin" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1107" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Replace([Email_Body],'&#xA;','|')" field="Email_Body" size="1000000" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Email_Body = Replace([Email_Body],'
+','|')
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Body" size="1000000" source="Formula: Replace([Email_Body],'&#xA;','|')" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subtitle" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="TextInput:" type="V_WString" />
+                <Field name="From_Email" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Title" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="73">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="1215" y="385" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Email_Body</Field>
+              <Delimeters value="|" />
+              <NumFields value="1" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field description="TextToColumns: Parsed from Email_Body" name="Email_Body" size="1000000" source="TextToColumns: Parsed from Email_Body" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subtitle" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="TextInput:" type="V_WString" />
+                <Field name="From_Email" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Title" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="74">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1311" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>IsNotEmpty</Operator>
+                <Field>Email_Body</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2024-01-02 16:09:35</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>
+                  </Operand>
+                  <StartDate>2024-01-02 16:09:35</StartDate>
+                  <EndDate>2024-01-02 16:09:35</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsEmpty([Email_Body])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field description="TextToColumns: Parsed from Email_Body" name="Email_Body" size="1000000" source="TextToColumns: Parsed from Email_Body" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subtitle" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="TextInput:" type="V_WString" />
+                <Field name="From_Email" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Title" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field description="TextToColumns: Parsed from Email_Body" name="Email_Body" size="1000000" source="TextToColumns: Parsed from Email_Body" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subtitle" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="TextInput:" type="V_WString" />
+                <Field name="From_Email" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Title" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1503" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="From_Email" action="GroupBy" rename="From_Email" />
+                <SummarizeField field="To_Email" action="GroupBy" rename="To_Email" />
+                <SummarizeField field="Email_Title" action="GroupBy" rename="Email_Title" />
+                <SummarizeField field="Email_Subject" action="GroupBy" rename="Email_Subject" />
+                <SummarizeField field="Emoji_Decimal_Code" action="GroupBy" rename="Emoji_Decimal_Code" />
+                <SummarizeField field="Coloured_Bar_Hex_Code" action="GroupBy" rename="Coloured_Bar_Hex_Code" />
+                <SummarizeField field="Email_Preview_Text" action="GroupBy" rename="Email_Preview_Text" />
+                <SummarizeField field="Email_Subtitle" action="GroupBy" rename="Email_Subtitle" />
+                <SummarizeField field="Sender_Signoff" action="GroupBy" rename="Sender_Signoff" />
+                <SummarizeField field="Footer_Text" action="GroupBy" rename="Footer_Text" />
+                <SummarizeField field="Email_Body" action="Concat" rename="Email_Body">
+                  <Concat_Start />
+                  <Separator />
+                  <Concat_End />
+                </SummarizeField>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="From_Email" size="100" source="Summarize: GroupBy - From_Email" type="V_WString" />
+                <Field name="To_Email" size="15" source="Summarize: GroupBy - To_Email" type="String" />
+                <Field name="Email_Title" size="100" source="Summarize: GroupBy - Email_Title" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="Summarize: GroupBy - Email_Subject" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="Summarize: GroupBy - Emoji_Decimal_Code" type="V_WString" />
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="Summarize: GroupBy - Coloured_Bar_Hex_Code" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="Summarize: GroupBy - Email_Preview_Text" type="String" />
+                <Field name="Email_Subtitle" size="100" source="Summarize: GroupBy - Email_Subtitle" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="Summarize: GroupBy - Sender_Signoff" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="Summarize: GroupBy - Footer_Text" type="V_WString" />
+                <Field name="Email_Body" size="1073741823" source="Summarize: Concat - Email_Body" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="From_Email" order="Asc" />
+                <Field field="To_Email" order="Asc" />
+                <Field field="Email_Title" order="Asc" />
+                <Field field="Email_Subject" order="Asc" />
+                <Field field="Emoji_Decimal_Code" order="Asc" />
+                <Field field="Coloured_Bar_Hex_Code" order="Asc" />
+                <Field field="Email_Preview_Text" order="Asc" />
+                <Field field="Email_Subtitle" order="Asc" />
+                <Field field="Sender_Signoff" order="Asc" />
+                <Field field="Footer_Text" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1407" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'&lt;p style=&quot;font-size: 14px; padding: 15px; margin: 0; text-align: justify&quot;&gt;'+[Email_Body]+'&lt;/p&gt;&lt;br&gt;'" field="Email_Body" size="1000000" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Email_Body = '&lt;p style="font-size: 14px; padding: 15px; margin: 0; text-align: j...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field description="TextToColumns: Parsed from Email_Body" name="Email_Body" size="1000000" source="Formula: '&lt;p style=&quot;font-size: 14px; padding: 15px; margin: 0; text-align: justify&quot;&gt;'+[Email_Body]+'&lt;/p&gt;&lt;br&gt;'" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subtitle" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="TextInput:" type="V_WString" />
+                <Field name="From_Email" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Title" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="81">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+            <Position x="1011" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <CartesianMode>Allow</CartesianMode>
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Source_Coloured_Bar_Hex_Code" selected="True" input="Source_" type="V_WString" size="100" />
+                    <SelectField field="Target_Email_Body" selected="True" input="Target_" type="V_WString" size="1000000" />
+                    <SelectField field="Target_Email_Subject" selected="True" input="Target_" type="V_WString" size="100" />
+                    <SelectField field="Target_Email_Subtitle" selected="True" input="Target_" type="V_WString" size="100" />
+                    <SelectField field="Source_Footer_Text" selected="True" input="Source_" type="V_WString" size="100" />
+                    <SelectField field="Source_From_Email" selected="True" input="Source_" type="V_WString" size="100" />
+                    <SelectField field="Source_Sender_Signoff" selected="True" input="Source_" type="V_WString" size="100" />
+                    <SelectField field="Source_Emoji_Decimal_Code" selected="True" input="Source_" type="V_WString" size="100" />
+                    <SelectField field="Source_Email_Title" selected="True" input="Source_" type="V_WString" size="100" />
+                    <SelectField field="Target_Email_Preview_Text" selected="True" input="Target_" />
+                    <SelectField field="Target_To_Email" selected="True" input="Target_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Body" size="1000000" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Subtitle" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="TextInput:" type="V_WString" />
+                <Field name="From_Email" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Title" size="100" source="TextInput:" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+        </Node>
+        <Node ToolID="124">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="1611" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Email_Body</Field>
+              <RegExExpression value="(.*)(&lt;br&gt;)" />
+              <CaseInsensitve value="True" />
+              <Method>Replace</Method>
+              <Replace expression="$1">
+                <CopyUnmatched value="True" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>Email_Body</RootName>
+                <NumFields value="3" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="RegExOut1" type="V_WString" size="1073741823" />
+                <Field field="RegExOut2" type="V_WString" size="1073741823" />
+              </ParseComplex>
+              <Match>
+                <Field>From_Email_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="From_Email" size="100" source="Summarize: GroupBy - From_Email" type="V_WString" />
+                <Field name="To_Email" size="15" source="Summarize: GroupBy - To_Email" type="String" />
+                <Field name="Email_Title" size="100" source="Summarize: GroupBy - Email_Title" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="Summarize: GroupBy - Email_Subject" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="Summarize: GroupBy - Emoji_Decimal_Code" type="V_WString" />
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="Summarize: GroupBy - Coloured_Bar_Hex_Code" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="Summarize: GroupBy - Email_Preview_Text" type="String" />
+                <Field name="Email_Subtitle" size="100" source="Summarize: GroupBy - Email_Subtitle" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="Summarize: GroupBy - Sender_Signoff" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="Summarize: GroupBy - Footer_Text" type="V_WString" />
+                <Field name="Email_Body" size="1073741823" source="Summarize: Concat - Email_Body" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="From_Email" order="Asc" />
+                <Field field="To_Email" order="Asc" />
+                <Field field="Email_Title" order="Asc" />
+                <Field field="Email_Subject" order="Asc" />
+                <Field field="Emoji_Decimal_Code" order="Asc" />
+                <Field field="Coloured_Bar_Hex_Code" order="Asc" />
+                <Field field="Email_Preview_Text" order="Asc" />
+                <Field field="Email_Subtitle" order="Asc" />
+                <Field field="Sender_Signoff" order="Asc" />
+                <Field field="Footer_Text" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="737" y="601" width="262" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>dynamic elements</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+            <Position x="795" y="650" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UseFileInput value="False" />
+              <Name>Email Input</Name>
+              <Abbrev />
+              <ShowFieldMap value="True" />
+              <Optional value="False" />
+              <TextInput>
+                <Configuration>
+                  <NumRows value="1" />
+                  <Fields>
+                    <Field name="To Email..." />
+                    <Field name="Email Preview Text..." />
+                    <Field name="Email Subject..." />
+                    <Field name="Email Subtitle..." />
+                    <Field name="Email Body..." />
+                  </Fields>
+                  <Data>
+                    <r>
+                      <c>alex@ajajaj.com</c>
+                      <c>Test Preview Text</c>
+                      <c>Test Email</c>
+                      <c>Test Subtitle</c>
+                      <c>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae tempus quam pellentesque nec nam aliquam sem. Nibh tellus molestie nunc non blandit massa enim nec dui. Odio facilisis mauris sit amet massa. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Risus sed vulputate odio ut enim blandit volutpat maecenas. Enim neque volutpat ac tincidunt vitae. Sit amet luctus venenatis lectus magna fringilla urna. Magna fermentum iaculis eu non diam phasellus. Eu nisl nunc mi ipsum. Sem viverra aliquet eget sit amet tellus cras adipiscing. Cras sed felis eget velit. Turpis cursus in hac habitasse platea dictumst. Viverra orci sagittis eu volutpat odio facilisis. Tristique magna sit amet purus gravida quis. Accumsan in nisl nisi scelerisque eu ultrices vitae.
+
+Massa sapien faucibus et molestie ac. Mollis aliquam ut porttitor leo a. At varius vel pharetra vel turpis nunc eget lorem dolor. Sit amet nisl purus in mollis nunc sed id. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Elementum facilisis leo vel fringilla. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Ac turpis egestas integer eget aliquet nibh. Enim praesent elementum facilisis leo vel fringilla est. Odio aenean sed adipiscing diam. Ultrices eros in cursus turpis massa tincidunt dui ut ornare. Nulla pharetra diam sit amet. Ornare suspendisse sed nisi lacus. Arcu dictum varius duis at consectetur lorem donec massa. Imperdiet nulla malesuada pellentesque elit eget gravida cum. Congue nisi vitae suscipit tellus mauris a diam maecenas.</c>
+                    </r>
+                  </Data>
+                </Configuration>
+              </TextInput>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Input</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="To Email..." size="15" source="TextInput:" type="String" />
+                <Field name="Email Preview Text..." size="17" source="TextInput:" type="String" />
+                <Field name="Email Subject..." size="10" source="TextInput:" type="String" />
+                <Field name="Email Subtitle..." size="13" source="TextInput:" type="String" />
+                <Field name="Email Body..." size="1644" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+            <Position x="915" y="650" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <RenameMode>Formula</RenameMode>
+              <Fields orderChanged="False">
+                <Field name="To Email..." />
+                <Field name="Email Preview Text..." />
+                <Field name="Email Subject..." />
+                <Field name="Email Subtitle..." />
+                <Field name="Email Body..." />
+                <Field name="*Unknown" />
+              </Fields>
+              <Expression>replace(replace([_CurrentField_],'...',''),' ','_')</Expression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="To_Email" size="15" source="TextInput:" type="String" />
+                <Field name="Email_Preview_Text" size="17" source="TextInput:" type="String" />
+                <Field name="Email_Subject" size="10" source="TextInput:" type="String" />
+                <Field name="Email_Subtitle" size="13" source="TextInput:" type="String" />
+                <Field name="Email_Body" size="1644" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1934" y="337" width="313" height="333" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>send email</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="71">
+          <GuiSettings Plugin="PortfolioPluginsGui.Email.Email">
+            <Position x="1959" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SMTPServerName>mail.server.goes.here</SMTPServerName>
+              <ToIsField value="True" />
+              <To>To_Email</To>
+              <CcIsField value="False" />
+              <Cc />
+              <BccIsField value="False" />
+              <Bcc />
+              <FromIsField value="True" />
+              <From>From_Email</From>
+              <SubjectIsField value="True" />
+              <Subject>Email_Subject</Subject>
+              <BodyIsField value="True" />
+              <Body>Layout</Body>
+              <UserName />
+              <Password />
+              <Enabled>True</Enabled>
+              <Port>25</Port>
+              <Encryption>None</Encryption>
+              <SMTPAuth value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxComposerEmail" />
+        </Node>
+        <Node ToolID="117">
+          <GuiSettings>
+            <Position x="1959" y="494" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output9">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="CountRecords.yxmc" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="2055" y="494" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="'***If macro ran without error*** -- ' + tostring([Count]) + ' email(s) sent'" field="Msg" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Msg = '***If macro ran without error*** -- ' + tostring([Count]) + ' email(s) se...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Msg" size="1073741823" source="Formula: '***If macro ran without error*** -- ' + tostring([Count]) + ' email(s) sent'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="122">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2163" y="494" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Msg" selected="True" rename="Info" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Info" size="1073741823" source="Formula: '***If macro ran without error*** -- ' + tostring([Count]) + ' email(s) sent'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1934" y="709" width="205" height="149" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>test design</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1959" y="758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>1=1</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>1=1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="From_Email" size="100" source="Summarize: GroupBy - From_Email" type="V_WString" />
+                <Field name="To_Email" size="15" source="Summarize: GroupBy - To_Email" type="String" />
+                <Field name="Email_Title" size="100" source="Summarize: GroupBy - Email_Title" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="Summarize: GroupBy - Email_Subject" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="Summarize: GroupBy - Emoji_Decimal_Code" type="V_WString" />
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="Summarize: GroupBy - Coloured_Bar_Hex_Code" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="Summarize: GroupBy - Email_Preview_Text" type="String" />
+                <Field name="Email_Subtitle" size="100" source="Summarize: GroupBy - Email_Subtitle" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="Summarize: GroupBy - Sender_Signoff" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="Summarize: GroupBy - Footer_Text" type="V_WString" />
+                <Field name="Email_Body" size="1073741823" source="Summarize: Concat - Email_Body" type="V_WString" />
+                <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="From_Email" size="100" source="Summarize: GroupBy - From_Email" type="V_WString" />
+                <Field name="To_Email" size="15" source="Summarize: GroupBy - To_Email" type="String" />
+                <Field name="Email_Title" size="100" source="Summarize: GroupBy - Email_Title" type="V_WString" />
+                <Field name="Email_Subject" size="100" source="Summarize: GroupBy - Email_Subject" type="V_WString" />
+                <Field name="Emoji_Decimal_Code" size="100" source="Summarize: GroupBy - Emoji_Decimal_Code" type="V_WString" />
+                <Field name="Coloured_Bar_Hex_Code" size="100" source="Summarize: GroupBy - Coloured_Bar_Hex_Code" type="V_WString" />
+                <Field name="Email_Preview_Text" size="17" source="Summarize: GroupBy - Email_Preview_Text" type="String" />
+                <Field name="Email_Subtitle" size="100" source="Summarize: GroupBy - Email_Subtitle" type="V_WString" />
+                <Field name="Sender_Signoff" size="100" source="Summarize: GroupBy - Sender_Signoff" type="V_WString" />
+                <Field name="Footer_Text" size="100" source="Summarize: GroupBy - Footer_Text" type="V_WString" />
+                <Field name="Email_Body" size="1073741823" source="Summarize: Concat - Email_Body" type="V_WString" />
+                <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="121">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2055" y="758" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Layout" selected="True" rename="Info" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Info" size="2147483647" source="Report:Layout:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="734" y="337" width="164" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>static elements</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="92">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="759" y="386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="From_Email" />
+                <Field name="Emoji_Decimal_Code" />
+                <Field name="Email_Title" />
+                <Field name="Coloured_Bar_Hex_Code" />
+                <Field name="Sender_Signoff" />
+                <Field name="Footer_Text" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>test@test.com</c>
+                  <c>&amp;#128231;</c>
+                  <c>Test Title</c>
+                  <c>#000000</c>
+                  <c>Alex</c>
+                  <c>Footer Test</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="From_Email" size="13" source="TextInput:" type="String" />
+                <Field name="Emoji_Decimal_Code" size="9" source="TextInput:" type="String" />
+                <Field name="Email_Title" size="10" source="TextInput:" type="String" />
+                <Field name="Coloured_Bar_Hex_Code" size="7" source="TextInput:" type="String" />
+                <Field name="Sender_Signoff" size="4" source="TextInput:" type="String" />
+                <Field name="Footer_Text" size="11" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="734" y="60" width="1698" height="218" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>interface tools</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="759" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="78">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="759" y="193" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="927" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="83">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="927" y="193" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="1203" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1203" y="193" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="1359" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="89">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1359" y="193" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="90">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="1503" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="91">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1503" y="193" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="1803" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1803" y="194" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="1959" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1959" y="194" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="85">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1059" y="193" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="1059" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Text Box (29)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+            <Position x="2103" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Radio Button (111)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2103" y="194" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2259" y="194" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="114">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+            <Position x="2259" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Radio Button (111)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="60" y="61" width="569" height="1035" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>workflow information</Caption>
+          <Style TextColor="#314c4a" FillColor="#f9f9f9" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="130">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="87" y="110" width="516" height="286" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>NAME:
+Send HTML Emails
+
+DEVELOPER:
+alex@ajajaj.com
+
+DESCRIPTION:
+This is a macro to send HTML-formatted emails using Alteryx. Running in test-mode will allow you to preview the emails before sending anything. I would always advise testing the macro by sending an email to yourself before sending it to a wider audience. I would also advise testing on multiple mediums -- such as desktop, mobile, etc.
+
+Any questions let me know.</Text>
+              <Font name="Arial" size="11.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="133">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="86" y="889" width="241" height="182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>workflow guidance</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="132">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="111" y="938" width="191" height="108" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>See AYX Code—for guidelines on Alteryx workflow development.
+
+http://www.ajajaj.co.uk/post/ayx-code.html</Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="3" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="137">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="85" y="421" width="243" height="446" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>container key</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="134">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="111" y="578" width="192" height="108" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+STICKY NOTES—
+For labeling parts of the workflow that are 'under development'.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor r="255" g="255" b="223" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="135">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="111" y="470" width="192" height="84" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+GENERAL—
+For annotating discrete chunks of the workflow.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="136">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="110" y="710" width="192" height="132" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+FYI—
+For labeling parts of the workflow that people need to pay special attention to as there is specific/extra logic.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor r="234" g="255" b="255" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="139">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="362" y="421" width="242" height="650" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>change log</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="138">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="387" y="470" width="192" height="576" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>2024.03.02 -- AJ:
+Created macro</Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="3" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="125">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="471" y="110" width="110" height="111" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text />
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+              <BG_Image>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</BG_Image>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="105" Connection="Action" />
+      <Destination ToolID="71" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="107" Connection="Action" />
+      <Destination ToolID="71" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="117" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="72" Connection="Output" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="True" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="76" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Output" />
+      <Destination ToolID="72" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="66" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="81" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="92" Connection="Output" />
+      <Destination ToolID="81" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output9" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="122" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="122" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="121" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="True" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="77" Connection="Question" />
+      <Destination ToolID="78" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="78" Connection="Action" />
+      <Destination ToolID="92" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="83" Connection="Action" />
+      <Destination ToolID="92" Connection="Action" />
+    </Connection>
+    <Connection name="#5" Wireless="True">
+      <Origin ToolID="87" Connection="Action" />
+      <Destination ToolID="92" Connection="Action" />
+    </Connection>
+    <Connection name="#6" Wireless="True">
+      <Origin ToolID="89" Connection="Action" />
+      <Destination ToolID="92" Connection="Action" />
+    </Connection>
+    <Connection name="#7" Wireless="True">
+      <Origin ToolID="91" Connection="Action" />
+      <Destination ToolID="92" Connection="Action" />
+    </Connection>
+    <Connection name="#4" Wireless="True">
+      <Origin ToolID="85" Connection="Action" />
+      <Destination ToolID="92" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="82" Connection="Question" />
+      <Destination ToolID="83" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="86" Connection="Question" />
+      <Destination ToolID="87" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="88" Connection="Question" />
+      <Destination ToolID="89" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="90" Connection="Question" />
+      <Destination ToolID="91" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="104" Connection="Question" />
+      <Destination ToolID="105" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="106" Connection="Question" />
+      <Destination ToolID="107" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="84" Connection="Question" />
+      <Destination ToolID="85" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="111" Connection="Question" />
+      <Destination ToolID="112" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="112" Connection="Action" />
+      <Destination ToolID="102" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="113" Connection="Action" />
+      <Destination ToolID="103" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="114" Connection="Question" />
+      <Destination ToolID="113" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (77)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (65)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (82)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (86)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (88)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (90)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (104)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (106)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (84)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (70)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (111)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (114)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>send-html-emails</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="9f7f7d73-a8e7-4c37-8710-6e27c552dd7b" />
+      <Telemetry>
+        <PreviousWorkflowId value="32a2e0ed-d098-4c85-af57-ece7b4eb8e47" />
+        <OriginWorkflowId value="5c16dbf5-8775-4fe6-b53b-9907e826f81c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="78" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>92/Data/r[1]/c[1]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	1</DynamicConfiguration>
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="83" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>92/Data/r[1]/c[2]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	2</DynamicConfiguration>
+              <DefaultConfiguration value="False" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="87" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>92/Data/r[1]/c[4]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	4</DynamicConfiguration>
+              <DefaultConfiguration value="False" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="89" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>92/Data/r[1]/c[5]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	5</DynamicConfiguration>
+              <DefaultConfiguration value="False" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="91" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>92/Data/r[1]/c[6]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	6</DynamicConfiguration>
+              <DefaultConfiguration value="False" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="105" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>71/SMTPServerName</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="107" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>71/Port</Destination>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="85" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>92/Data/r[1]/c[3]</Destination>
+              <Mapping>Update Cell</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration>row	1
+column	3</DynamicConfiguration>
+              <DefaultConfiguration value="False" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="112" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>102/Disabled/@value</Destination>
+              <Mapping>Enable/Disable Container from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="113" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>103/Disabled/@value</Destination>
+              <Mapping>Enable/Disable Container from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (28)</Name>
+          <ToolId value="28" />
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>Description—This is a macro to send HTML-formatted emails using Alteryx. Running in test-mode will allow you to preview the emails before sending anything. I would always advise testing the macro by sending an email to yourself before sending it to a wider audience. I would also advise testing on multiple mediums -- such as desktop, mobile, etc.</Description>
+              <Name>Label (129)</Name>
+              <ToolId value="129" />
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Operation Mode</Description>
+              <Name>LabelGroup (115)</Name>
+              <ToolId value="115" />
+              <Questions>
+                <Question>
+                  <Type>RadioGroup</Type>
+                  <Description>Test Mode? i.e. no email sent</Description>
+                  <Name>Radio Button (111)</Name>
+                  <ToolId value="111" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+                <Question>
+                  <Type>RadioGroup</Type>
+                  <Description>Production Mode? i.e. send email</Description>
+                  <Name>Radio Button (114)</Name>
+                  <ToolId value="114" />
+                  <Questions />
+                  <Default value="True" />
+                  <Collapsable value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Static Email Content</Description>
+              <Name>LabelGroup (110)</Name>
+              <ToolId value="110" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Sender Email...</Description>
+                  <Name>Text Box (77)</Name>
+                  <ToolId value="77" />
+                  <Default>test@test.com</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Email Title...</Description>
+                  <Name>Text Box (84)</Name>
+                  <ToolId value="84" />
+                  <Default>Test Title</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Emoji Decimal HTML Entity...</Description>
+                  <Name>Text Box (82)</Name>
+                  <ToolId value="82" />
+                  <Default>&amp;#128231;</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Coloured Trim Hex Code...</Description>
+                  <Name>Text Box (86)</Name>
+                  <ToolId value="86" />
+                  <Default>#000000</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Email Signoff...</Description>
+                  <Name>Text Box (88)</Name>
+                  <ToolId value="88" />
+                  <Default>Alex</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Footer Text...</Description>
+                  <Name>Text Box (90)</Name>
+                  <ToolId value="90" />
+                  <Default>Footer Text</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Dynamic Email Content</Description>
+              <Name>LabelGroup (108)</Name>
+              <ToolId value="108" />
+              <Questions>
+                <Question>
+                  <Type>MacroInput</Type>
+                  <Description />
+                  <Name>Macro Input (65)</Name>
+                  <ToolId value="65" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Email Connection Details</Description>
+              <Name>LabelGroup (109)</Name>
+              <ToolId value="109" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>SMTP Server Name...</Description>
+                  <Name>Text Box (104)</Name>
+                  <ToolId value="104" />
+                  <Default>relay3.am.jll.com</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Sender Port Number...</Description>
+                  <Name>Text Box (106)</Name>
+                  <ToolId value="106" />
+                  <Default>25</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description />
+              <Name>Macro Output (70)</Name>
+              <ToolId value="70" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="70" Selected="True" />
+        <Tool ToolId="65" Selected="True" />
+        <Tool ToolId="117" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

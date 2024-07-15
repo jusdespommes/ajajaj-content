@@ -1,0 +1,1779 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="773" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>start</Name>
+          <Abbrev>s</Abbrev>
+          <ShowFieldMap value="True" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="item_to_download" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>https://www.gdacs.org/gdacsapi/api/polygons/getgeometry?eventtype=TC&amp;eventid=1001002</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>s Input</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_to_download" size="84" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="965" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Engine.IterationNumber] &lt; 10</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Engine.IterationNumber] &lt; 10</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="869" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="item_to_download" selected="True" type="V_WString" size="1000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="869" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Engine.IterationNumber] &lt; 10</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Engine.IterationNumber] &lt; 10</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="item_to_download" size="84" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="item_to_download" size="84" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1092" y="389" width="155" height="133" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>try download</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+            <Position x="1117" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Password />
+              <URLField>item_to_download</URLField>
+              <OutputMode>String</OutputMode>
+              <CodePage>65001</CodePage>
+              <EncodeURLs value="False" />
+              <Headers>
+                <NameValues />
+                <Fields orderChanged="False">
+                  <Field name="item_to_download" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </Fields>
+              </Headers>
+              <Payload>
+                <HTTPAction>GET</HTTPAction>
+                <QueryStringBodyMode>Compose</QueryStringBodyMode>
+                <ComposeNameValues />
+                <ComposeFields orderChanged="False">
+                  <Field name="item_to_download" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </ComposeFields>
+              </Payload>
+              <UserName />
+              <numConnections>10</numConnections>
+              <Timeout>60</Timeout>
+              <EnableRPM value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1516" y="389" width="213" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>on success</Caption>
+          <Style TextColor="#314c4a" FillColor="#e8ffe8" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1645" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="header_trim" action="GroupBy" rename="DownloadHeaders" />
+                <SummarizeField field="item_to_download" action="Count" rename="Count" />
+                <SummarizeField field="item_to_download" action="Concat" rename="item_to_download">
+                  <Concat_Start />
+                  <Separator>"\s&amp;\s"</Separator>
+                  <Concat_End />
+                </SummarizeField>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                <Field name="item_to_download" size="1073741823" source="Summarize: Concat - item_to_download" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="header_trim" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1541" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="trim(REGEX_Replace([DownloadHeaders], '(HTTP.*?)(Content.*)', '$1'))" field="header_trim" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>header_trim = trim(REGEX_Replace([DownloadHeaders], '(HTTP.*?)(Content.*)', '$1'...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="header_trim" size="1073741823" source="Formula: trim(REGEX_Replace([DownloadHeaders], '(HTTP.*?)(Content.*)', '$1'))" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1308" y="389" width="151" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>did it work?</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1333" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>Contains([DownloadHeaders],"200 OK")</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([DownloadHeaders],"200 OK")</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="780" y="669" width="221" height="221" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>macro messages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="805" y="806" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>First</When>
+              <Filter />
+              <Type>Message</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>'Request Attempt—' + tostring([Engine.IterationNumber]+1)</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_to_download" size="84" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="76">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="917" y="718" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>First</When>
+              <Filter />
+              <Type>Warning</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>'FAILED TO DOWNLOAD ' 
++ tostring([Count]) 
++ ' REQUEST(S) — "' 
++ [item_to_download] 
++ '" — on iteration ' 
++ tostring(([Engine.IterationNumber]+1))</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                <Field name="item_to_download" size="1073741823" source="Summarize: Concat - item_to_download" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="header_trim" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="917" y="806" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>First</When>
+              <Filter />
+              <Type>Error</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>'FAILED TO DOWNLOAD ' 
++ tostring([Count]) 
++ ' REQUEST(S) — "' 
++ [item_to_download] 
++ '" — after ' 
++ tostring(([Engine.IterationNumber])) 
++ ' iteration(s)'</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                <Field name="item_to_download" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="805" y="718" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>First</When>
+              <Filter />
+              <Type>Message</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>if
+
+contains([DownloadHeaders],'200 OK')
+
+then
+'SUCCESSFULLY DOWNLOADED ' + tostring([Count]) + ' REQUEST(S) — "' + [item_to_download] + '" after — ' + tostring(([Engine.IterationNumber]+1)) + ' iteration(s)'
+
+else
+'FAILED TO DOWNLOAD "' + [item_to_download] + '" after — ' + tostring(([Engine.IterationNumber])) + ' iteration(s)'
+
+endif</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                <Field name="item_to_download" size="1073741823" source="Summarize: Concat - item_to_download" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="header_trim" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1788" y="389" width="458" height="261" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>output results</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+            <Position x="2109" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Name>output</Name>
+              <Abbrev>o</Abbrev>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>o Output</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+        </Node>
+        <Node ToolID="86">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1917" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="87">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1813" y="534" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Engine.IterationNumber] = 10 - 1</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Engine.IterationNumber] = 10 - 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="94">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="2013" y="438" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1092" y="668" width="638" height="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>on failure</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffdddd" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1117" y="765" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="DownloadData" selected="False" />
+                <SelectField field="DownloadHeaders" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings>
+            <Position x="1213" y="766" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output1">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output2">
+              <RecordInfo>
+                <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="CReW_ParallelBlockUntilDone.yxmc" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1300" y="901" width="405" height="336" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>then retry</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="45">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+                <Position x="1421" y="950" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Name>iter</Name>
+                  <Abbrev />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Output</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+            </Node>
+            <Node ToolID="74">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="1421" y="1046" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="header_trim" action="GroupBy" rename="DownloadHeaders" />
+                    <SummarizeField field="item_to_download" action="Count" rename="Count" />
+                    <SummarizeField field="item_to_download" action="Concat" rename="item_to_download">
+                      <Concat_Start />
+                      <Separator>"\s&amp;\s"</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                    <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                    <Field name="item_to_download" size="1073741823" source="Summarize: Concat - item_to_download" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="header_trim" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="73">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="1325" y="1046" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField expression="trim(REGEX_Replace([DownloadHeaders], '(HTTP.*?)(Content.*)', '$1'))" field="header_trim" size="1073741823" type="V_WString" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>header_trim = trim(REGEX_Replace([DownloadHeaders], '(HTTP.*?)(Content.*)', '$1'...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                    <Field name="DownloadData" size="1073741823" source="Download" type="V_WString" />
+                    <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                    <Field name="header_trim" size="1073741823" source="Formula: trim(REGEX_Replace([DownloadHeaders], '(HTTP.*?)(Content.*)', '$1'))" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="75">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="1517" y="1046" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Engine.IterationNumber] &lt; 10</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Engine.IterationNumber] &lt; 10</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="True">
+                  <RecordInfo>
+                    <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                    <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                    <Field name="item_to_download" size="1073741823" source="Summarize: Concat - item_to_download" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="header_trim" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="False">
+                  <RecordInfo>
+                    <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                    <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                    <Field name="item_to_download" size="1073741823" source="Summarize: Concat - item_to_download" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="header_trim" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="79">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="1325" y="950" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ByName</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+            <Node ToolID="84">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+                <Position x="1621" y="1046" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ByName_ErrorMode>Warning</ByName_ErrorMode>
+                  <ByName_OutputMode>All</ByName_OutputMode>
+                  <Mode>ByName</Mode>
+                  <SetOutputOrder value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="DownloadHeaders" size="1073741823" source="Summarize: GroupBy - header_trim" type="V_WString" />
+                    <Field name="Count" source="Summarize: Count - item_to_download" type="Int64" />
+                    <Field name="item_to_download" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="1300" y="717" width="301" height="149" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>add in a timed wait in between requests</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="48">
+              <GuiSettings>
+                <Position x="1421" y="766" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Value name="Numeric Up Down (12)">10</Value>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output8">
+                  <RecordInfo>
+                    <Field name="Field1" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="CReW_WaitASecond.yxmc" />
+            </Node>
+            <Node ToolID="49">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1517" y="766" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\ALEX~1.SJO\AppData\Local\Temp\Engine_26052_505dfadb133b4b5abbfbb436eea9304d_\Engine_12768_4b9f22085976487fb476e63ddc400cde_.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="50">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+                <Position x="1325" y="766" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>First</Mode>
+                  <N>1</N>
+                  <GroupFields orderChanged="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>First 1</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="item_to_download" size="1000" source="TextInput:" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="748" y="60" width="1108" height="229" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>parameters</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="925" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="949" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Numeric Up Down (28)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1077" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="773" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Numeric Up Down (28)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="773" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1237" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="82">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1365" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="88">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1509" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="93">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1669" y="205" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="60" y="62" width="578" height="1113" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>workflow information</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="95" y="135" width="516" height="286" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>NAME:
+Download Tool+
+
+DEVELOPER:
+alex@ajajaj.com
+
+DESCRIPTION:
+The Download Tool but with the added benefit of retry on failure and a final alert if the call has failed overall.</Text>
+              <Font name="Arial" size="11.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="503" y="111" width="110" height="111" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text />
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+              <BG_Image>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</BG_Image>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="85" y="966" width="253" height="182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>workflow guidance</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="3">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="110" y="1015" width="203" height="108" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>See AYX Code—for guidelines on Alteryx workflow development.
+
+http://www.ajajaj.co.uk/post/ayx-code.html</Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="3" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="86" y="430" width="256" height="514" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>container key</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="5">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="111" y="647" width="201" height="108" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+STICKY NOTES—
+For labeling parts of the workflow that are 'under development'.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor r="255" g="255" b="223" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="6">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="119" y="479" width="198" height="142" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+GENERAL—
+For annotating discrete chunks of the workflow. Group inputs and outputs together in their own separate containers.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="7">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="111" y="775" width="202" height="144" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+FYI—
+For labeling parts of the workflow that people need to pay special attention to as there is specific/extra logic.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor r="234" g="255" b="255" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="366" y="430" width="242" height="720" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>change log</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="9">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="391" y="479" width="192" height="646" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>2024.02.24 -- AJ: 
+Created macro
+
+2024.02.27 -- AJ:
+Combined with Download Tool Checker macro</Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="3" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="82" Connection="Action" />
+      <Destination ToolID="85" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="39" Connection="Question" />
+      <Destination ToolID="93" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="41" Connection="False" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="75" Connection="False" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="53" Connection="Action" />
+      <Destination ToolID="41" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="85" Connection="True" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="55" Connection="Action" />
+      <Destination ToolID="40" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="70" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="40" Connection="False" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="71" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="40" Connection="False" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="87" Connection="True" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="False" />
+      <Destination ToolID="87" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="88" Connection="Action" />
+      <Destination ToolID="87" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="93" Connection="Action" />
+      <Destination ToolID="94" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output1" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="44" Connection="Output2" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="64" Connection="Action" />
+      <Destination ToolID="75" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="75" Connection="True" />
+      <Destination ToolID="76" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output8" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="48" Connection="Input7" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="57" Connection="Action" />
+      <Destination ToolID="48" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="54" Connection="Question" />
+      <Destination ToolID="53" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="54" Connection="Question" />
+      <Destination ToolID="55" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="54" Connection="Question" />
+      <Destination ToolID="64" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="54" Connection="Question" />
+      <Destination ToolID="82" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="54" Connection="Question" />
+      <Destination ToolID="88" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="56" Connection="Question" />
+      <Destination ToolID="57" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="True" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (58)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (45)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (39)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Numeric Up Down (54)</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Numeric Up Down (56)</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>download-plus</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="01ac82cf-fd12-46de-bef6-3438b99da0c0" />
+      <Telemetry>
+        <PreviousWorkflowId value="38593888-3974-4873-be87-6ba8fd752d7b" />
+        <OriginWorkflowId value="74e87475-1abc-4b1c-b805-7b5d64bca6e5" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="53" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>10</ReplaceText>
+              <Destination>41/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="55" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>10</ReplaceText>
+              <Destination>40/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="57" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>48/Value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="64" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>10</ReplaceText>
+              <Destination>75/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="82" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>10</ReplaceText>
+              <Destination>85/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="88" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>10</ReplaceText>
+              <Destination>87/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>ReverseFieldMap</Type>
+              <Description />
+              <ToolId value="93" />
+              <Variable />
+              <SelectTool value="-1" />
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (12)</Name>
+          <ToolId value="12" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description />
+              <Name>Macro Output (58)</Name>
+              <ToolId value="58" />
+            </Question>
+            <Question>
+              <Type>Label</Type>
+              <Description>Description—The Download Tool but with the added benefit of retry on failure and a final alert if the overall call has failed.</Description>
+              <Name>Label (67)</Name>
+              <ToolId value="67" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (7)</Description>
+              <Name>Macro Output (45)</Name>
+              <ToolId value="45" />
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Options</Description>
+              <Name>LabelGroup (66)</Name>
+              <ToolId value="66" />
+              <Questions>
+                <Question>
+                  <Type>MacroInput</Type>
+                  <Description />
+                  <Name>Macro Input (39)</Name>
+                  <ToolId value="39" />
+                </Question>
+                <Question>
+                  <Type>NumericUpDown</Type>
+                  <Description>Number of attempts—</Description>
+                  <Name>Numeric Up Down (54)</Name>
+                  <ToolId value="54" />
+                  <Minimum value="0" />
+                  <Maximum value="100" />
+                  <Increment value="1" />
+                  <Default value="10" />
+                  <Decimals value="0" />
+                </Question>
+                <Question>
+                  <Type>NumericUpDown</Type>
+                  <Description>Second gap between retries—</Description>
+                  <Name>Numeric Up Down (56)</Name>
+                  <ToolId value="56" />
+                  <Minimum value="0" />
+                  <Maximum value="100" />
+                  <Increment value="1" />
+                  <Default value="10" />
+                  <Decimals value="0" />
+                </Question>
+              </Questions>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <IterativeMacro>
+        <Input>start</Input>
+        <Output>iter</Output>
+        <IterationLimit value="100" />
+        <LimitBehavior>Ignore</LimitBehavior>
+        <OutputMode>AutoByName</OutputMode>
+      </IterativeMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="39" Selected="True" />
+        <Tool ToolId="58" Selected="True" />
+        <Tool ToolId="44" Selected="True" />
+        <Tool ToolId="45" Selected="True" />
+        <Tool ToolId="48" Selected="True" />
+        <Tool ToolId="49" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

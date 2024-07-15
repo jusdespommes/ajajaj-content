@@ -1,0 +1,1467 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.4">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1151" y="478" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev>O</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>O Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1055" y="478" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="FileName" selected="True" size="1000" />
+            <SelectField field="Column_1" selected="True" />
+            <SelectField field="Column_2" selected="True" />
+            <SelectField field="Column_3" selected="True" />
+            <SelectField field="Column_12" selected="True" />
+            <SelectField field="Column_13" selected="True" />
+            <SelectField field="Column_14" selected="True" />
+            <SelectField field="Column_15" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FileName" size="1000" source="File: FileName" type="V_WString" />
+            <Field name="Column_1" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_2" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_3" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_12" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_13" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_14" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_15" size="255" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="959" y="478" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Column_1" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_2" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_3" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_12" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_13" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_14" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Column_15" size="255" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="774" y="60" width="1818" height="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>parameters</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+            <Position x="1007" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Change File</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="943" y="261" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+            <Position x="1375" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Radio Button (21)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+            <Position x="1695" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Radio Button (21)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+            <Position x="2023" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Radio Button (21)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1087" y="261" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="799" y="262" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+            <Position x="1375" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[#1]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1495" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1495" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+            <Position x="1695" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[#1]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1823" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="57">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1823" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="58">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+            <Position x="2023" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[#1]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="59">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2143" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="60">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2143" y="109" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="64">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1239" y="261" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="65">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1495" y="269" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="1823" y="270" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2143" y="270" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2431" y="270" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+            <Position x="2319" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Radio Button (21)</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="70">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+            <Position x="2319" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[#1]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2431" y="190" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="2431" y="110" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Update Value</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="774" y="973" width="109" height="149" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>csv</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="799" y="1022" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="FileName">.\File_1.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>File_1.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Column_1" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="Column_2" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="Column_3" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="Column_12" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="Column_13" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="Column_14" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="Column_15" size="254" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.csv" type="V_WString" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="774" y="605" width="151" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>xlsx</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="799" y="654" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\File_1.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>File_1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Column_1" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Column_2" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Column_3" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Column_12" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Column_13" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Column_14" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Column_15" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="774" y="789" width="151" height="165" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>xls</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="799" y="838" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="FileName" RecordLimit="" SearchSubDirs="False" FileFormat="8">.\File_1.xls|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <NoProgress>False</NoProgress>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>File_1.xls
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Column_1" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="Column_2" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="Column_3" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="Column_12" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="Column_13" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="Column_14" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="Column_15" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xls|||`Sheet1$`" type="V_WString" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="60" y="60" width="573" height="1128" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>workflow information</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="87" y="134" width="516" height="286" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>NAME:
+Union Everything
+
+DEVELOPER:
+alex@ajajaj.com
+
+DESCRIPTION:
+Sometimes you just want to union everything—even if the files have different schemas.</Text>
+              <Font name="Arial" size="11.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="75">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="495" y="109" width="110" height="111" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text />
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+              <BG_Image>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</BG_Image>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="85" y="981" width="253" height="182" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>workflow guidance</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="3">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="110" y="1030" width="203" height="108" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>See AYX Code—for guidelines on Alteryx workflow development.
+
+http://www.ajajaj.co.uk/post/ayx-code.html</Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="3" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="85" y="437" width="252" height="522" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>container key</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="5">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="110" y="654" width="201" height="108" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+STICKY NOTES—
+For labeling parts of the workflow that are 'under development'.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor r="255" g="255" b="223" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="6">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="110" y="486" width="198" height="142" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+GENERAL—
+For annotating discrete chunks of the workflow. Group inputs and outputs together in their own separate containers.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+            <Node ToolID="7">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="110" y="790" width="202" height="144" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text><![CDATA[ 
+FYI—
+For labeling parts of the workflow that people need to pay special attention to as there is specific/extra logic.]]></Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor r="234" g="255" b="255" />
+                  <Shape shape="1" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="366" y="437" width="242" height="720" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>change log</Caption>
+              <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="9">
+              <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+                <Position x="391" y="486" width="192" height="646" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Text>2024.05.08 -- AJ: 
+Created macro</Text>
+                  <Font name="Arial" size="11.25" style="0" />
+                  <TextColor name="Black" />
+                  <FillColor name="White" />
+                  <Shape shape="3" />
+                  <Justification Justification="3" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="774" y="429" width="119" height="149" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>yxdb</Caption>
+          <Style TextColor="#314c4a" FillColor="#ffffff" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="62">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="799" y="478" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="FileName" FileFormat="19" SearchSubDirs="False" RecordLimit="">.\File_1.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>File_1.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Column_1" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="Column_2" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="Column_3" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="Column_12" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="Column_13" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="Column_14" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="Column_15" size="255" source="File: C:\Users\Alex.SJones\OneDrive - JLL\AJ Files\ajajaj\blog-files\union-everything\File_1.xlsx|||Sheet1" type="V_String" />
+                <Field name="FileName" size="254" source="File: FileName" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="16" Connection="Question" />
+      <Destination ToolID="20" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="16" Connection="Question" />
+      <Destination ToolID="15" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="16" Connection="Question" />
+      <Destination ToolID="40" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="16" Connection="Question" />
+      <Destination ToolID="64" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="20" Connection="Action" />
+      <Destination ToolID="18" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="21" Connection="Question" />
+      <Destination ToolID="52" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="22" Connection="Question" />
+      <Destination ToolID="55" Connection="Question" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="36" Connection="Question" />
+      <Destination ToolID="58" Connection="Question" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="40" Connection="Action" />
+      <Destination ToolID="32" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="15" Connection="Action" />
+      <Destination ToolID="13" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="52" Connection="True Condition" />
+      <Destination ToolID="53" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="52" Connection="True Condition" />
+      <Destination ToolID="54" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="52" Connection="True Condition" />
+      <Destination ToolID="65" Connection="Condition" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="53" Connection="Action" />
+      <Destination ToolID="24" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="60" Connection="Action" />
+      <Destination ToolID="24" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="71" Connection="Action" />
+      <Destination ToolID="24" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="54" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="57" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="68" Connection="Action" />
+      <Destination ToolID="33" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="55" Connection="True Condition" />
+      <Destination ToolID="56" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="55" Connection="True Condition" />
+      <Destination ToolID="57" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="55" Connection="True Condition" />
+      <Destination ToolID="66" Connection="Condition" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="56" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="59" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="72" Connection="Action" />
+      <Destination ToolID="25" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="58" Connection="True Condition" />
+      <Destination ToolID="59" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="58" Connection="True Condition" />
+      <Destination ToolID="60" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="58" Connection="True Condition" />
+      <Destination ToolID="67" Connection="Condition" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="64" Connection="Action" />
+      <Destination ToolID="62" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="65" Connection="Action" />
+      <Destination ToolID="63" Connection="Action" />
+    </Connection>
+    <Connection name="#2" Wireless="True">
+      <Origin ToolID="66" Connection="Action" />
+      <Destination ToolID="63" Connection="Action" />
+    </Connection>
+    <Connection name="#3" Wireless="True">
+      <Origin ToolID="67" Connection="Action" />
+      <Destination ToolID="63" Connection="Action" />
+    </Connection>
+    <Connection name="#1" Wireless="True">
+      <Origin ToolID="69" Connection="Question" />
+      <Destination ToolID="70" Connection="Question" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="70" Connection="True Condition" />
+      <Destination ToolID="71" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="70" Connection="True Condition" />
+      <Destination ToolID="72" Connection="Condition" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="70" Connection="True Condition" />
+      <Destination ToolID="68" Connection="Condition" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (16)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (21)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (22)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (36)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Radio Button (69)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>union-everything</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d10a8e2a-3f9f-4a5b-81d2-2cc884ec1e46" />
+      <Telemetry>
+        <PreviousWorkflowId value="153d5526-226d-4e03-8e55-936a28d71d86" />
+        <OriginWorkflowId value="153d5526-226d-4e03-8e55-936a28d71d86" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="15" />
+              <Expression>if
+CONTAINS([#1],'.xls')
+AND
+!CONTAINS([#1],'|||')
+then
+[#1]+'|||`Sheet1$`'
+else
+[#1]
+endif</Expression>
+              <Destination>13/File</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="20" />
+              <Expression>if
+CONTAINS([#1],'.xls')
+AND
+!CONTAINS([#1],'|||')
+then
+[#1]+'|||`Sheet1$`'
+else
+[#1]
+endif</Expression>
+              <Destination>18/File</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="40" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>32/File</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="64" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>62/File</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="52" />
+          <Expression>[#1]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="53" />
+              <Expression>'True'</Expression>
+              <Destination>24/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="54" />
+              <Expression>'True'</Expression>
+              <Destination>33/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="65" />
+              <Expression>'True'</Expression>
+              <Destination>63/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="55" />
+          <Expression>[#1]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="56" />
+              <Expression>'True'</Expression>
+              <Destination>25/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="57" />
+              <Expression>'True'</Expression>
+              <Destination>33/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="66" />
+              <Expression>'True'</Expression>
+              <Destination>63/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="58" />
+          <Expression>[#1]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="59" />
+              <Expression>'True'</Expression>
+              <Destination>25/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="60" />
+              <Expression>'True'</Expression>
+              <Destination>24/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="67" />
+              <Expression>'True'</Expression>
+              <Destination>63/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="70" />
+          <Expression>[#1]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="71" />
+              <Expression>'True'</Expression>
+              <Destination>25/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="72" />
+              <Expression>'True'</Expression>
+              <Destination>25/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="68" />
+              <Expression>'True'</Expression>
+              <Destination>63/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (12)</Name>
+          <ToolId value="12" />
+          <Questions>
+            <Question>
+              <Type>Label</Type>
+              <Description>Description—Allows you to union files with different schemas.</Description>
+              <Name>Label (74)</Name>
+              <ToolId value="74" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Files to union...</Description>
+              <Name>Control Parameter (16)</Name>
+              <ToolId value="16" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Output (14)</Name>
+              <ToolId value="14" />
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>File Type...</Description>
+              <Name>LabelGroup (28)</Name>
+              <ToolId value="28" />
+              <Questions>
+                <Question>
+                  <Type>RadioGroup</Type>
+                  <Description>xlsx</Description>
+                  <Name>Radio Button (21)</Name>
+                  <ToolId value="21" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+                <Question>
+                  <Type>RadioGroup</Type>
+                  <Description>xls</Description>
+                  <Name>Radio Button (22)</Name>
+                  <ToolId value="22" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+                <Question>
+                  <Type>RadioGroup</Type>
+                  <Description>csv</Description>
+                  <Name>Radio Button (36)</Name>
+                  <ToolId value="36" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+                <Question>
+                  <Type>RadioGroup</Type>
+                  <Description>yxdb</Description>
+                  <Name>Radio Button (69)</Name>
+                  <ToolId value="69" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+              </Questions>
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwgAADsIBFShKgAAACRZJREFUeF7tnWnobVUZh29aUdpsc1Y02YgWUZGgNhEZYdJEUJFGZTRBUVRI44coKyKbtfJLpWWaNEJZfbHBbKaybB6kmWxWG3/PjSvee99z/muftc/1f/Z+Hng+yV5n/+953Wfttd71vjtERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERkUzkqnj9RvxA/E8+Op8ZXxOPjEfHguF9cJ4x/63hkPC6+Mr4jnhW5r/Nidd9TkLganWPjf2fmv+Nf44/jGfHZ8bB4jdgD198zPiN+MP4o8jl8XnUfU5a4Gp05BmvlZfEH8XXxRrGVa0aenG+I34+MU40/Nw3WNcuTln+P/eNW8PP+kvjt+M9YjTdnDdY1+Z94Zrx53IpDI/POP8ZqLP2/Busa/Et8VtxqvnpIPC3+PVbj6O4arCP708hb69XiIm4YXxv/FKsxtNZgHdGvxjvGRbDs9Kh4Uayu1+UarCP56XjTuIiDIuuyl8fqet1ag3UEPxb5aV/E4fHCWF2r7RqsnX48Xi9W8LP/lHhJrK7VYRqsHX42LnqisrDPS5TrpeNpsK7ot+ItYsUB8T1xjlui69RgXcGL491ixYGRzQA2BaprdXUN1oH+Ix4dK3iinh4N1PW4lmC9bXzaBD0hHhOrBX92q94d92Wg8uL2jfjheHI8MZLt9fRY3f+mS1xJJ7z1k9e67jkqT3XyVV8Wycq6SeRFTqSZJ8V1pfHxpP5uJBuL3bGrR5GVIGPqd7EKtB4JUrLjHxeZC4t0cf14QayCrccfxifEa0eRbnjJemOsgm1VL428KN04DmHd575kw3lw5IWnCrpV/EV8RGwJPJ64940vjOdE5rTkH4jsxXXj12MVdKvIidk7xWXwJGcjgi1czmXtuY37xei0QfbiBXGs9dSPxGU/+wTpveOHIqdaqzGQ+3lmFLmCW8Vfxypghsq27KKMLeD8FmezWo+9/Dwuy6mVmXFSrAJlqJ+IiwKVpynzV47IVNcuk6IXIjuPSv8+VkEyRI6/LHoCsiNFwK368varuCgbTGbEq2IVIENkCnGPWMETlaWr3m1bdrtkxtwg/ixWwdEqb/BPjMt4cvxXrK5vlRJDrFjITCHIelcA3he3qszC3j9phtX1rXKfj40yQ/h5PjdWgdEqP/+tKW63j7+J1Tit8gLHfcvMINuJKitVULTK2uwQXhSrcVr9c7xdlJnx3FgFRKtUElx2VLuCqoMUdavGa5UymTIzKGBRBUOrz4urwN5/NV6rn4wyI24W/xCrYGiRuWdLJcEK1kt/G6txWyTPdmgGl2wwD4s9qwCnxB4411WN2yL3TXaYzAR2k6pAaJHF/QfGHgi2nv9ZOK8lM4F5XxUELf4k9i7Okz+wSo7ALqnDJTOAffqeQHlvHIP3x2r8FvkfprcJh2wALOKzXlkFQYtPjWNAHYBq/BYpWEwCjkyc+8VVk0q4jpZAY3Cv2HMf94kycR4TqwBokSUnilCMAemEPce9qbYtE4dSPNWX3+J34lhzRcbhUGD1OS163GUGvDxWX36LtKYck8/F6nNadPlqBtDhr/ryW/xAHBNaYVaf0+Lro0yct8bqy2+Rnacx6dnJekuUicPJ0urLb/GdcUwYr/qcFt8eZeJspycrZd+rz2nRJ+sMmMqclb9DJk7PagCdXMaE8arPaZG/QyYOzYKrL7/F7bTOyt8hE+fRsfryW2THyR0s2WdQVrJnT549/THozQ3g75CJc5vYk3VFh5Ex6M264u+QicNckXzQKghapKjFGDBONX6L5rPOCDLtqyBokcTtZSUtW+g9KUAjZJkJPctXnJ16UOyBM1w9Z7DozyUz4SGxJ1jeFXs4NVbjtsh9PzTKTGD5qWfZiCTsVeulUm+gp+YVtWSthD0zek644tA6V7t4fqzGa/VTUWYGNaOqYGiVeqnUrhoCtbFo3laN1+pzoswMSlD2rLfii+MQeutcUfWQ6ocyM6hzSr3TKihaZe5K0LfAEfDejjAUk7M+60yhknTPqgCeEbfqas1/79kEQO6T3q8yUygDxNyzCo5W6SlAz4BlEGR7dg8cKr0PaIIsM4YuKFVwtEpSCc2JF/0808Wltzw7uhEgO9dLV51L0iXwpXHRPj3roV+L1bVDZE344CiyUglMlqCOjoueqOz/977A7ZJGxCI74QlIj9QqUPaUxsBvjst2kZgL00S4un6odBe8ZRS5AsrxLFsZIEg5MEhhtmXLRwdFumJXYwyV+2HHS2Q36OtPf/8rBwtv8N+Lr453jVutcR4SvxSvPEaPzHevE0X24vDIIb5zIrtTlMe8VtyK/eIj4y9jFXSrSFPi3lREmTgE3hCYu74tXharoFvVZcthIoNg2nBc7G3CVnlBpAmySBfMIR8fvxJ7t2orWVM9NIqsBIv+d44nRl641hGkyFRiq3bwIrtBRxfmog+IbBiwSnBprAJsLNm2pUCw89QRIMWNM/NTk/P7JDTz1Dw5shLwzcjZ/Cqo1iFPas51Vdu2BO8x8YRY3f+m29oCfxDHxuofWvskUEkzPCBWPDyyjFVdOwWJq9ExWMeXQD0zHhgr2Ii4OFbXTkWDdQNkjnpaXBSoZIMxHamunZIG6zaXbdzXRF7kKjhYSGeY6tqpabBuY3lx48Vi0U4ZqYU95Y02TYN1m0rewf3jIti1+misrp2qBus28/JI84xlhYj5bxSwqK6fsgbrNpITBVSpXpYgc4dIPkB1/dQ1WLeBzE15iVpWtYUFf3bJespfbroG61Xo3yL9re4Sl8FuFacTOIFQjTMXDdarwEsi89KWjCkqCZ4eV+0pMCUN1n0k66UXRmoPtOxx7x85UbCOHNhN1WBdo6Tx8dL0psh8c0htf+avJ8WL4rqzuDZFg3Uk+ZlmTklw0rqS7KzD4pAAraD21d0jjddIYqGEEZ8zx2nBWoL1qPjlCXp+PC+eG8+KdM0mh5X6VUdEKqEMPZc1FMbnc46Mx0dKBZ0Sz45su34+Vvc+BYkrERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERER2TR27PgfCE2nGc7U6iYAAAAASUVORK5CYII=</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AutoByName</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (16)</Name>
+            <Description>Files to union...</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="14" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
